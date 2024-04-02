@@ -11,3 +11,5 @@ app.listen(port, () => {
 app.get('/test', (req, res) => {
     res.json("working");
   });
+
+module.exports = app;
